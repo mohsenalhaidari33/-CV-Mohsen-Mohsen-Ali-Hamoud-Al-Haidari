@@ -1,5 +1,4 @@
-# -CV-Mohsen-Mohsen-Ali-Hamoud-Al-Haidari
-Professional Profile Mohsen Mohsen Ali Hamoud Al-Haidari
+
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -8,97 +7,101 @@ Professional Profile Mohsen Mohsen Ali Hamoud Al-Haidari
   <title>السيرة الذاتية - محسن الحيدري</title>
   <style>
     body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f0f2f5;
+      font-family: 'Tahoma', sans-serif;
+      background-color: #f7f9fc;
       margin: 0;
-      padding: 20px;
+      padding: 0;
       color: #333;
     }
     .container {
-      background-color: #fff;
       max-width: 900px;
       margin: auto;
-      padding: 30px;
+      background: white;
+      padding: 40px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
       border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    .profile-photo {
-      width: 160px;
-      height: 160px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 3px solid #004d66;
-      margin-bottom: 20px;
+      margin-top: 40px;
     }
     .header {
       text-align: center;
+      margin-bottom: 30px;
     }
-    h1 {
-      margin: 10px 0 0 0;
-      font-size: 26px;
-      color: #004d66;
+    .header img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #007B8A;
     }
-    p.title {
-      font-size: 18px;
-      margin-top: 5px;
+    .header h1 {
+      margin-top: 15px;
+      color: #007B8A;
     }
     .section {
-      margin-top: 30px;
+      margin-bottom: 30px;
     }
-    h2 {
-      border-bottom: 2px solid #004d66;
+    .section h2 {
+      color: #007B8A;
+      border-bottom: 2px solid #007B8A;
       padding-bottom: 5px;
-      color: #004d66;
+      margin-bottom: 10px;
     }
-    ul {
+    .section ul {
+      list-style-type: square;
       padding-right: 20px;
+    }
+    .contact p {
+      margin: 5px 0;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <img src="photo.jpg" alt="photo.jpg " class="profile-photo">
-      <h1>محسن محسن علي الحيدري</h1>
-      <p class="title">المدير التنفيذي – مؤسسة تصحيح للتنمية الإنسانية</p>
-    </div>
 
-    <div class="section">
-      <h2>معلومات الاتصال</h2>
-      <p>محافظة الضالع – اليمن</p>
-      <p>البريد الإلكتروني: mohsen7355@gmail.com</p>
-      <p>رقم الهاتف: 776021975 / 734367256</p>
-    </div>
-
-    <div class="section">
-      <h2>المؤهلات العلمية</h2>
-      <ul>
-        <li>بكالوريوس إدارة أعمال – الجامعة اليمنية</li>
-        <li>دبلوم صحة عامة – معهد الدكتور أمين ناشر – عدن</li>
-        <li>شهادة TOEFL – جامعة عدن – كلية اللغات</li>
-        <li>دبلوم سكرتارية وكمبيوتر – معهد Touch Me – الضالع</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>الخبرات العملية</h2>
-      <ul>
-        <li>المدير التنفيذي – مؤسسة تصحيح</li>
-        <li>أخصائي متابعة وتقييم – منظمة المجتمعات العالمية</li>
-        <li>مشرف ميداني – عدة منظمات</li>
-        <li>مدرب ريادة مشاريع ومقترحات</li>
-        <li>مراقب حماية – IRC و DRC</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>المهارات الفنية</h2>
-      <ul>
-        <li>تحليل البيانات باستخدام Excel، SPSS، Power BI</li>
-        <li>إعداد التقارير التقييمية والرقابية</li>
-        <li>قيادة فرق العمل والتخطيط الاستراتيجي</li>
-      </ul>
-    </div>
+<div class="container">
+  <div class="header">
+    <img src="photo.jpg" alt="محسن الحيدري">
+    <h1>محسن محسن علي الحيدري</h1>
+    <p>المدير التنفيذي – مؤسسة تصحيح للتنمية الإنسانية</p>
   </div>
+
+  <div class="section contact">
+    <h2>معلومات الاتصال</h2>
+    <p>الموقع: محافظة الضالع – اليمن</p>
+    <p>الهاتف: 776021975 / 734367256</p>
+    <p>البريد الإلكتروني: mohsen7355@gmail.com</p>
+  </div>
+
+  <div class="section">
+    <h2>المؤهلات الأكاديمية</h2>
+    <ul>
+      <li>بكالوريوس إدارة أعمال – الجامعة اليمنية</li>
+      <li>دبلوم صحة عامة – معهد الدكتور أمين ناشر</li>
+      <li>شهادة TOEFL – جامعة عدن</li>
+      <li>دبلوم سكرتارية وكمبيوتر – Touch Me Institute</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>الخبرات العملية</h2>
+    <ul>
+      <li>المدير التنفيذي – مؤسسة تصحيح</li>
+      <li>أخصائي متابعة وتقييم – منظمة المجتمعات العالمية</li>
+      <li>مشرف ميداني – منظمات مختلفة</li>
+      <li>مدرب معتمد في ريادة الأعمال وإدارة المشاريع</li>
+      <li>مراقب حماية – IRC و DRC</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>المهارات الفنية</h2>
+    <ul>
+      <li>تحليل البيانات – Excel، SPSS، Power BI</li>
+      <li>إعداد التقارير الفنية والإنسانية</li>
+      <li>إدارة الفرق وتنظيم الورش</li>
+      <li>مهارات التفاوض والتواصل</li>
+    </ul>
+  </div>
+</div>
+
 </body>
 </html>
